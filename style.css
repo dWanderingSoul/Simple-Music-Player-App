@@ -1,0 +1,208 @@
+*{
+box-sizing: border-box;
+}
+    body{
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    padding: 100px;
+    background-color:#cccc;
+}
+.player {
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 20px 20px 100px 20px;
+    box-sizing:border-box;
+   }
+.player .container {
+    margin: 0 0 66px 0; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    width: 100%;
+    box-sizing: border-box;
+}
+ .frame-2 {  
+    margin: 21.6px 0 22.6px 0; 
+    display: flex;
+    width: 7.8px;
+    height: 12.7px;
+    box-sizing: border-box;
+  }
+.vector-3 { 
+    height: 12.7px;
+  }
+
+  .ellipse-1 {  
+    border-radius: 28.5px; 
+    background-image: url("./assets/ellipse_1.png"); 
+    background-position: 50% 50%; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 57px;
+    height: 57px;
+  }
+
+  .group-2 {  
+    margin: 0 0 89.1px 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    width: 280px;
+    box-sizing: border-box;
+  }
+
+.frame-3 {  
+    margin: 2px 0 1.9px 0;
+    display: flex;
+    width: 18px;
+    height: 16px;
+    box-sizing: border-box;
+  }
+.vector-4 {
+    width: 18px;
+    height: 16px;
+  }
+
+  .player .frame-4 {
+    display: flex; 
+    width: 18px;
+    height: 19.9px;
+    box-sizing: border-box;
+  }
+
+  .player .vector-5 {
+    width: 18px;
+    height: 19.9px;
+  }
+  
+  .player .frame-5 {
+    margin: 1px 0 0.5px 0;
+    display: flex;
+    width: 20px;
+    height: 18.5px;
+    box-sizing: border-box;
+  }
+  
+  .player .vector-6 {
+    width: 20px;
+    height: 18.5px;
+  }
+  
+  .player .frame-6 {
+    margin: 1.5px 0 1.5px 0;
+    display: flex;
+    width: 17px;
+    height: 16.9px;
+    box-sizing: border-box;
+  }
+  
+  .player .vector-7 {
+    width: 17px;
+    height: 16.9px;
+  }
+  
+  .player .ellipse-2 {
+    border-radius: 200px; 
+    background-image: url('./assets/ellipse_2.jpeg');
+    margin: 0 0 7px 8px;
+    width: 350px;
+    height: 350px;
+  }
+
+  .player .lovely {
+    margin: 0 0 0 7.8px; 
+    overflow-wrap: break-word; 
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold; 
+    font-size: 24px; 
+    color: #000000; 
+  }
+  
+  .player .bille-ellish {
+    margin: 0 0 62px 7.5px; 
+    display: inline-block; 
+    overflow-wrap:  break-words; 
+    font-family: 'Poppins', sans-serif; 
+    font-weight: medium; 
+    font-size: 14px; 
+    color: #676565; 
+  }
+  
+  .player .container-1 {
+    margin: 0 0 0 8.9px;
+    display: flex;
+    flex-direction: row; 
+    width: 191.3px;
+    box-sizing: border-box;
+  }
+
+  .player .frame {
+    transform: rotate(-179.538deg); 
+    margin: 23.1px 35.4px 23.5px 0;
+    display: flex;
+    width: 22.3px;
+    height: 27.4px;
+    box-sizing: border-box;
+  }
+
+  .player .vector-1 {
+    width: 22.3px;
+    height: 27.4px;
+  }
+  .player .container-2 {
+    border-radius: 37px;
+    background-color: #F5B501;
+    position: relative;
+    margin: 0 37.5px 0 0;
+    display: flex;
+    padding: 25px 0 24px 1px;
+    width: 74px;
+    height: 74px;
+    box-sizing: border-box;
+  }
+  .player .vector {
+    width: 21px;
+    height: 25px;
+    margin-left: 25px;
+  }
+
+  .player .frame-1 {
+    margin: 21.8px 0 25px 0;
+    display: flex;
+    width: 22.1px;
+    height: 27.2px;
+    box-sizing: border-box;
+  }
+
+  .player .vector-2 {
+    width: 22.1px;
+    height: 27.2px;
+    
+  }
+
+  .group-1 {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 262px;
+    height: 46px;
+    margin-top: 69px;
+    margin-left:-100px ;
+  }
+  
+  .group-1 .music-frequency-1,
+  .group-1 .music-frequency-2,
+  .group-1 .vector-8,
+  .group-1 .vector-1 {
+    display: flex; 
+    width: 210px;
+    height: 46.3px;
+    box-sizing: border-box;
+  }
+  
+
+
